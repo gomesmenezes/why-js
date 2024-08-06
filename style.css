@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.05);
+
+    padding: 20px;
+}
+
+.container-one {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.list {
+    color: blue;
+}
+
+main {
+    height: 75vh;
+}
+
+.title {
+    margin: 40px auto 20px;
+    text-align: center;
+}
+
+.description {
+    padding: 20px 30px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+}
